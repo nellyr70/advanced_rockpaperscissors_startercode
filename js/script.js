@@ -22,7 +22,7 @@ function randomInt(a, b) {
     throw "b must be greater than or equal to a";
   }
   return a + Math.floor(Math.random() * (b+1-a));
-}
+} 
 
 // *************************** YOUR CODE BELOW *******************************
 //******************TEST EARLY AND OFTEN USING console.log() ******************
